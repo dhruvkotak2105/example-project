@@ -40,7 +40,7 @@ Route::get('/facade-test', function() {
     return TestFacades::testMethod();
 });
 
-
+Route::get('/stores', 'StoreController@index')->name('stores');
 
 
 
